@@ -3,6 +3,15 @@
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 1rem;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        height: auto;
+        overflow-y: auto;
+    }
 }
 
 .grid-container {
