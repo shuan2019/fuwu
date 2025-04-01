@@ -1,0 +1,2107 @@
+@font-face{font-family:nekotora;src:url(../fonts/nekotora.54f9b137.eot);src:url(../fonts/nekotora.54f9b137.eot#iefix) format("embedded-opentype"),url(../fonts/nekotora.4ea5ebe6.woff2) format("woff2"),url(../fonts/nekotora.9106c612.woff) format("woff"),url(../fonts/nekotora.28169ea4.ttf) format("truetype"),url(../images/nekotora.33032896.svg#nekotora) format("svg");font-weight:400;font-style:normal}[class*=" icon-"]:before,[class^=icon-]:before{font-family:nekotora;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-search:before{content:"\e800"}.icon-info:before{content:"\e801"}.icon-comment:before{content:"\e802"}.icon-v2ex:before{content:"\e803"}.icon-zhihu:before{content:"\e804"}.icon-bilibili:before{content:"\e805"}.icon-netease_music:before{content:"\e806"}.icon-tencent_qzone:before{content:"\e807"}.icon-mail:before{content:"\e808"}.icon-bookmark:before{content:"\e809"}.icon-link:before{content:"\e80a"}.icon-twitter:before{content:"\f099"}.icon-gplus:before{content:"\f0d5"}.icon-github:before{content:"\f113"}.icon-unlink:before{content:"\f127"}.icon-instagram:before{content:"\f16d"}.icon-weibo:before{content:"\f18a"}.icon-qq:before{content:"\f1d6"}
+.main-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.grid-container {
+    position: relative;
+    z-index: 3;
+}
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+
+/* 原有网格布局样式 */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.service-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+.service-links a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.service-links a:hover {
+  color: #357abd;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .service-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+}
+
+/* 移除卡片样式 */
+.service-card {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.service-card h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-blue { background: #28a9e0dd }
+.bg-green { background: #4CAF70dd }
+.bg-purple { background: #9C27B0dd }
+.bg-orange { background: #FF9800dd }
+.bg-pink { background: #E91E63dd }
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+    .service-card {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+}
+/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */
+.service-card {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    min-height: 150px;
+    display: flex;
+    flex-
